@@ -1,0 +1,5 @@
+---
+ja:
+  logged_out: ログアウトに成功しました
+  could_not_log_in: Shopifyストアにログインできませんでした
+  invalid_shop_url: ショップのドメインが無効です

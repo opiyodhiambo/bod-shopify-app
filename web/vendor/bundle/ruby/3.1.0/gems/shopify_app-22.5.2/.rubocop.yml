@@ -1,0 +1,19 @@
+inherit_gem:
+    rubocop-shopify: rubocop.yml
+
+AllCops:
+  Exclude:
+    - 'test/tmp/**/*'
+    - 'vendor/bundle/**/*'
+
+Style/MethodCallWithArgsParentheses:
+  Exclude:
+    - '**/Gemfile'
+    - 'test/**/*'
+
+Style/ClassAndModuleChildren:
+  Exclude:
+    - 'test/**/*'
+
+Style/ClassMethodsDefinitions:
+  Enabled: false

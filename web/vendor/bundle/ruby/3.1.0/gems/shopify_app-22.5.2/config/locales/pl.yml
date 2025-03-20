@@ -1,0 +1,5 @@
+---
+pl:
+  logged_out: Pomyślne wylogowanie
+  could_not_log_in: Nie można zalogować się do sklepu Shopify
+  invalid_shop_url: Nieprawidłowa domena sklepu

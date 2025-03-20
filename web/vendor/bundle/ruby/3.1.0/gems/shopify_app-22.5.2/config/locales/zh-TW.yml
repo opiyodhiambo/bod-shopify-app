@@ -1,0 +1,5 @@
+---
+zh-TW:
+  logged_out: 登出成功
+  could_not_log_in: 無法登入 Shopify 商店
+  invalid_shop_url: 商店網域無效

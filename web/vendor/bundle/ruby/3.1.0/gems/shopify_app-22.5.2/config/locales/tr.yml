@@ -1,0 +1,5 @@
+---
+tr:
+  logged_out: Oturum başarıyla kapatıldı
+  could_not_log_in: Shopify mağazasında oturum açılamadı
+  invalid_shop_url: Geçersiz mağaza alan adı

@@ -1,0 +1,5 @@
+---
+ko:
+  logged_out: 성공적으로 로그아웃 되었습니다.
+  could_not_log_in: Shopify 스토어에 로그인할 수 없습니다.
+  invalid_shop_url: 유효하지 않은 상점 도메인

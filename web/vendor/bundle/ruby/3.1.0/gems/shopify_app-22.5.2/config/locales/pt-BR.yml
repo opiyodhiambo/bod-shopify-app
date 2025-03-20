@@ -1,0 +1,5 @@
+---
+pt-BR:
+  logged_out: Você saiu.
+  could_not_log_in: Não foi possível fazer login na Shopify store
+  invalid_shop_url: Domínio de loja inválido

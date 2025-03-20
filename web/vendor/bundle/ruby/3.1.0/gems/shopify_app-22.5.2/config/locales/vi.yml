@@ -1,0 +1,5 @@
+---
+vi:
+  logged_out: Đã đăng xuất thành công
+  could_not_log_in: Không thể đăng nhập vào cửa hàng trên Shopify
+  invalid_shop_url: Miền cửa hàng không hợp lệ

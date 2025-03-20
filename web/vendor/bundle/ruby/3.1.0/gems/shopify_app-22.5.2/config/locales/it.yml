@@ -1,0 +1,5 @@
+---
+it:
+  logged_out: Disconnessione effettuata correttamente
+  could_not_log_in: Impossibile accedere al negozio Shopify
+  invalid_shop_url: Dominio negozio non valido

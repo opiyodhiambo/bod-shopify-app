@@ -1,0 +1,5 @@
+---
+fi:
+  logged_out: Olet kirjautunut ulos
+  could_not_log_in: Kirjautuminen Shopify-kauppaan ei onnistunut
+  invalid_shop_url: Virheellinen kaupan verkkotunnus

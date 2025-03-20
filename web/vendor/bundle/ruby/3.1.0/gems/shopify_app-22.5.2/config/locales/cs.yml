@@ -1,0 +1,5 @@
+---
+cs:
+  logged_out: Odhlášení proběhlo úspěšně
+  could_not_log_in: Nelze se přihlásit do obchodu Shopify
+  invalid_shop_url: Neplatná doména obchodu

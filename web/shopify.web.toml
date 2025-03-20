@@ -1,0 +1,6 @@
+roles = ["backend"]
+webhooks_path = "api/webhooks/app_uninstalled"
+
+[commands]
+dev = "bin/rails server"
+build = "rake build:all"

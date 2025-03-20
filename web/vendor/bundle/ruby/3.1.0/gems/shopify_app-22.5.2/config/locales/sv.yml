@@ -1,0 +1,5 @@
+---
+sv:
+  logged_out: Har loggats ut
+  could_not_log_in: Det gick inte att logga in i Shopify-butiken
+  invalid_shop_url: Ogiltig butiksdomän

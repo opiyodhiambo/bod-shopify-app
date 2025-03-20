@@ -1,0 +1,5 @@
+---
+es:
+  logged_out: Cerrar sesión
+  could_not_log_in: No se pudo iniciar sesión en tu tienda Shopify
+  invalid_shop_url: Dominio de tienda inválido

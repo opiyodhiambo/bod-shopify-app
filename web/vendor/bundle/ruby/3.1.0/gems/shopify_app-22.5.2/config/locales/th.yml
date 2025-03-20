@@ -1,0 +1,5 @@
+---
+th:
+  logged_out: ออกจากระบบสำเร็จ
+  could_not_log_in: ไม่สามารถเข้าสู่ระบบร้านค้า Shopify ได้
+  invalid_shop_url: โดเมนร้านค้าไม่ถูกต้อง

@@ -1,0 +1,5 @@
+---
+zh-CN:
+  logged_out: 已成功退出
+  could_not_log_in: 无法登录到 Shopify 商店
+  invalid_shop_url: 商店域名无效
