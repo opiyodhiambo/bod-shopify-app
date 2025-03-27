@@ -2,10 +2,9 @@
 
 ShopifyApp.configure do |config|
   config.application_name = "BoDIntegration"
-  config.scope = ENV.fetch(
-    "SCOPES", "read_all_orders, read_assigned_fulfillment_orders, read_content, read_customers, read_discounts, read_files, write_files, read_fulfillments, write_fulfillments, read_orders, write_orders, read_markets, read_products, write_products, read_shipping, write_shipping, read_users") # See shopify.app.toml for scopes
+  config.scope = ENV.fetch("SCOPES") # See shopify.app.toml for scopes
   
-  config.Webhooks = [
+  config.webhooks = [
     { topic: "orders/create", address: "#{ENV['HOST']}/webhooks/orders_create", format: "json" },
     { topic: "orders/fulfilled", address: "#{ENV['HOST']}/webhooks/orders_fulfilled", format: "json" }
   ]

@@ -3,9 +3,9 @@ require 'net/sftp'
 class OrdersCreateJob < ApplicationJob
   queue_as :default
 
-  SFTP_HOST = "sftp.bod.com" 
-  SFTP_USER = "your_username"
-  SFTP_PASS = "your_password"
+  SFTP_HOST = ENV.fetch("SFTP_HOST")
+  SFTP_USER = ENV.fetch("SFTP_USER")
+  SFTP_PASS = ENV.fetch("SFTP_PASS")
 
   def perform(order_data)
     Rails.logger.info "New Order Received: #{order_data}"

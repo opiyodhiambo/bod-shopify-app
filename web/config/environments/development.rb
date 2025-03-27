@@ -3,11 +3,10 @@
 require "active_support/core_ext/integer/time"
 
 Rails.application.configure do
-  config.hosts = begin
-    config.hosts
-  rescue StandardError
-    []
-  end << /[-\w.]+\.ngrok\.io/
+  config.hosts << "0eff-41-90-71-75.ngrok-free.app" # Explicitly add your current ngrok domain
+
+  # Allow all ngrok subdomains dynamically (including ngrok-free.app)
+  config.hosts << /[-\w.]+\.ngrok(-free)?\.app/
 
   config.hosts << URI(ENV.fetch("HOST", "")).host if ENV.fetch("HOST", "").present?
   # Settings specified here will take precedence over those in config/application.rb.

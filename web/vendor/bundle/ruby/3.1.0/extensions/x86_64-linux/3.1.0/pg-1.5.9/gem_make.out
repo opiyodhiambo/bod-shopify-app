@@ -1,0 +1,312 @@
+current directory: /home/adventure/adventure/dev/bod-dropshipping/web/vendor/bundle/ruby/3.1.0/gems/pg-1.5.9/ext
+/usr/bin/ruby3.1 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20250327-93155-tgbm9t.rb extconf.rb
+Calling libpq with GVL unlocked
+checking for pg_config... yes
+Using config values from /home/adventure/anaconda3/bin/pg_config
+checking for whether -Wl,-rpath,/home/adventure/anaconda3/lib is accepted as LDFLAGS... yes
+Using libpq from /home/adventure/anaconda3/lib
+checking for libpq-fe.h... yes
+checking for libpq/libpq-fs.h... yes
+checking for pg_config_manual.h... yes
+checking for PQconnectdb() in -lpq... yes
+checking for PQconninfo() in libpq-fe.h... yes
+checking for PQsslAttribute() in libpq-fe.h... yes
+checking for PQresultVerboseErrorMessage() in libpq-fe.h... yes
+checking for PQencryptPasswordConn() in libpq-fe.h... yes
+checking for PQresultMemorySize() in libpq-fe.h... yes
+checking for PQenterPipelineMode() in libpq-fe.h... no
+checking for timegm()... yes
+checking for rb_gc_adjust_memory_usage()... yes
+checking for rb_gc_mark_movable()... yes
+checking for rb_io_wait()... yes
+checking for rb_io_descriptor()... yes
+checking for unistd.h... yes
+checking for inttypes.h... yes
+checking for C99 variable length arrays... yes
+creating extconf.h
+creating Makefile
+
+current directory: /home/adventure/adventure/dev/bod-dropshipping/web/vendor/bundle/ruby/3.1.0/gems/pg-1.5.9/ext
+make DESTDIR\= clean
+
+current directory: /home/adventure/adventure/dev/bod-dropshipping/web/vendor/bundle/ruby/3.1.0/gems/pg-1.5.9/ext
+make DESTDIR\=
+compiling gvl_wrappers.c
+In file included from pg.h:60,
+                 from gvl_wrappers.c:6:
+/home/adventure/anaconda3/include/pg_config.h:1038: warning: "restrict" redefined
+ 1038 | #define restrict __restrict
+      | 
+In file included from /usr/include/ruby-3.1.0/ruby/internal/config.h:22,
+                 from /usr/include/ruby-3.1.0/ruby/ruby.h:15,
+                 from /usr/include/ruby-3.1.0/ruby.h:38,
+                 from pg.h:21:
+/usr/include/x86_64-linux-gnu/ruby-3.1.0/ruby/config.h:77: note: this is the location of the previous definition
+   77 | #define restrict __restrict__
+      | 
+compiling pg.c
+In file included from pg.h:60,
+                 from pg.c:48:
+/home/adventure/anaconda3/include/pg_config.h:1038: warning: "restrict" redefined
+ 1038 | #define restrict __restrict
+      | 
+In file included from /usr/include/ruby-3.1.0/ruby/internal/config.h:22,
+                 from /usr/include/ruby-3.1.0/ruby/ruby.h:15,
+                 from /usr/include/ruby-3.1.0/ruby.h:38,
+                 from pg.h:21:
+/usr/include/x86_64-linux-gnu/ruby-3.1.0/ruby/config.h:77: note: this is the location of the previous definition
+   77 | #define restrict __restrict__
+      | 
+compiling pg_binary_decoder.c
+In file included from pg.h:60,
+                 from pg_binary_decoder.c:8:
+/home/adventure/anaconda3/include/pg_config.h:1038: warning: "restrict" redefined
+ 1038 | #define restrict __restrict
+      | 
+In file included from /usr/include/ruby-3.1.0/ruby/internal/config.h:22,
+                 from /usr/include/ruby-3.1.0/ruby/ruby.h:15,
+                 from /usr/include/ruby-3.1.0/ruby.h:38,
+                 from pg.h:21:
+/usr/include/x86_64-linux-gnu/ruby-3.1.0/ruby/config.h:77: note: this is the location of the previous definition
+   77 | #define restrict __restrict__
+      | 
+compiling pg_binary_encoder.c
+In file included from pg.h:60,
+                 from pg_binary_encoder.c:7:
+/home/adventure/anaconda3/include/pg_config.h:1038: warning: "restrict" redefined
+ 1038 | #define restrict __restrict
+      | 
+In file included from /usr/include/ruby-3.1.0/ruby/internal/config.h:22,
+                 from /usr/include/ruby-3.1.0/ruby/ruby.h:15,
+                 from /usr/include/ruby-3.1.0/ruby.h:38,
+                 from pg.h:21:
+/usr/include/x86_64-linux-gnu/ruby-3.1.0/ruby/config.h:77: note: this is the location of the previous definition
+   77 | #define restrict __restrict__
+      | 
+compiling pg_coder.c
+In file included from pg.h:60,
+                 from pg_coder.c:6:
+/home/adventure/anaconda3/include/pg_config.h:1038: warning: "restrict" redefined
+ 1038 | #define restrict __restrict
+      | 
+In file included from /usr/include/ruby-3.1.0/ruby/internal/config.h:22,
+                 from /usr/include/ruby-3.1.0/ruby/ruby.h:15,
+                 from /usr/include/ruby-3.1.0/ruby.h:38,
+                 from pg.h:21:
+/usr/include/x86_64-linux-gnu/ruby-3.1.0/ruby/config.h:77: note: this is the location of the previous definition
+   77 | #define restrict __restrict__
+      | 
+compiling pg_connection.c
+In file included from pg.h:60,
+                 from pg_connection.c:7:
+/home/adventure/anaconda3/include/pg_config.h:1038: warning: "restrict" redefined
+ 1038 | #define restrict __restrict
+      | 
+In file included from /usr/include/ruby-3.1.0/ruby/internal/config.h:22,
+                 from /usr/include/ruby-3.1.0/ruby/ruby.h:15,
+                 from /usr/include/ruby-3.1.0/ruby.h:38,
+                 from pg.h:21:
+/usr/include/x86_64-linux-gnu/ruby-3.1.0/ruby/config.h:77: note: this is the location of the previous definition
+   77 | #define restrict __restrict__
+      | 
+compiling pg_copy_coder.c
+In file included from pg.h:60,
+                 from pg_copy_coder.c:6:
+/home/adventure/anaconda3/include/pg_config.h:1038: warning: "restrict" redefined
+ 1038 | #define restrict __restrict
+      | 
+In file included from /usr/include/ruby-3.1.0/ruby/internal/config.h:22,
+                 from /usr/include/ruby-3.1.0/ruby/ruby.h:15,
+                 from /usr/include/ruby-3.1.0/ruby.h:38,
+                 from pg.h:21:
+/usr/include/x86_64-linux-gnu/ruby-3.1.0/ruby/config.h:77: note: this is the location of the previous definition
+   77 | #define restrict __restrict__
+      | 
+compiling pg_errors.c
+In file included from pg.h:60,
+                 from pg_errors.c:6:
+/home/adventure/anaconda3/include/pg_config.h:1038: warning: "restrict" redefined
+ 1038 | #define restrict __restrict
+      | 
+In file included from /usr/include/ruby-3.1.0/ruby/internal/config.h:22,
+                 from /usr/include/ruby-3.1.0/ruby/ruby.h:15,
+                 from /usr/include/ruby-3.1.0/ruby.h:38,
+                 from pg.h:21:
+/usr/include/x86_64-linux-gnu/ruby-3.1.0/ruby/config.h:77: note: this is the location of the previous definition
+   77 | #define restrict __restrict__
+      | 
+compiling pg_record_coder.c
+In file included from pg.h:60,
+                 from pg_record_coder.c:6:
+/home/adventure/anaconda3/include/pg_config.h:1038: warning: "restrict" redefined
+ 1038 | #define restrict __restrict
+      | 
+In file included from /usr/include/ruby-3.1.0/ruby/internal/config.h:22,
+                 from /usr/include/ruby-3.1.0/ruby/ruby.h:15,
+                 from /usr/include/ruby-3.1.0/ruby.h:38,
+                 from pg.h:21:
+/usr/include/x86_64-linux-gnu/ruby-3.1.0/ruby/config.h:77: note: this is the location of the previous definition
+   77 | #define restrict __restrict__
+      | 
+compiling pg_result.c
+In file included from pg.h:60,
+                 from pg_result.c:7:
+/home/adventure/anaconda3/include/pg_config.h:1038: warning: "restrict" redefined
+ 1038 | #define restrict __restrict
+      | 
+In file included from /usr/include/ruby-3.1.0/ruby/internal/config.h:22,
+                 from /usr/include/ruby-3.1.0/ruby/ruby.h:15,
+                 from /usr/include/ruby-3.1.0/ruby.h:38,
+                 from pg.h:21:
+/usr/include/x86_64-linux-gnu/ruby-3.1.0/ruby/config.h:77: note: this is the location of the previous definition
+   77 | #define restrict __restrict__
+      | 
+compiling pg_text_decoder.c
+In file included from pg.h:60,
+                 from pg_text_decoder.c:32:
+/home/adventure/anaconda3/include/pg_config.h:1038: warning: "restrict" redefined
+ 1038 | #define restrict __restrict
+      | 
+In file included from /usr/include/ruby-3.1.0/ruby/internal/config.h:22,
+                 from /usr/include/ruby-3.1.0/ruby/ruby.h:15,
+                 from /usr/include/ruby-3.1.0/ruby.h:38,
+                 from pg.h:21:
+/usr/include/x86_64-linux-gnu/ruby-3.1.0/ruby/config.h:77: note: this is the location of the previous definition
+   77 | #define restrict __restrict__
+      | 
+compiling pg_text_encoder.c
+In file included from pg.h:60,
+                 from pg_text_encoder.c:43:
+/home/adventure/anaconda3/include/pg_config.h:1038: warning: "restrict" redefined
+ 1038 | #define restrict __restrict
+      | 
+In file included from /usr/include/ruby-3.1.0/ruby/internal/config.h:22,
+                 from /usr/include/ruby-3.1.0/ruby/ruby.h:15,
+                 from /usr/include/ruby-3.1.0/ruby.h:38,
+                 from pg.h:21:
+/usr/include/x86_64-linux-gnu/ruby-3.1.0/ruby/config.h:77: note: this is the location of the previous definition
+   77 | #define restrict __restrict__
+      | 
+compiling pg_tuple.c
+In file included from pg.h:60,
+                 from pg_tuple.c:1:
+/home/adventure/anaconda3/include/pg_config.h:1038: warning: "restrict" redefined
+ 1038 | #define restrict __restrict
+      | 
+In file included from /usr/include/ruby-3.1.0/ruby/internal/config.h:22,
+                 from /usr/include/ruby-3.1.0/ruby/ruby.h:15,
+                 from /usr/include/ruby-3.1.0/ruby.h:38,
+                 from pg.h:21:
+/usr/include/x86_64-linux-gnu/ruby-3.1.0/ruby/config.h:77: note: this is the location of the previous definition
+   77 | #define restrict __restrict__
+      | 
+compiling pg_type_map.c
+In file included from pg.h:60,
+                 from pg_type_map.c:7:
+/home/adventure/anaconda3/include/pg_config.h:1038: warning: "restrict" redefined
+ 1038 | #define restrict __restrict
+      | 
+In file included from /usr/include/ruby-3.1.0/ruby/internal/config.h:22,
+                 from /usr/include/ruby-3.1.0/ruby/ruby.h:15,
+                 from /usr/include/ruby-3.1.0/ruby.h:38,
+                 from pg.h:21:
+/usr/include/x86_64-linux-gnu/ruby-3.1.0/ruby/config.h:77: note: this is the location of the previous definition
+   77 | #define restrict __restrict__
+      | 
+compiling pg_type_map_all_strings.c
+In file included from pg.h:60,
+                 from pg_type_map_all_strings.c:9:
+/home/adventure/anaconda3/include/pg_config.h:1038: warning: "restrict" redefined
+ 1038 | #define restrict __restrict
+      | 
+In file included from /usr/include/ruby-3.1.0/ruby/internal/config.h:22,
+                 from /usr/include/ruby-3.1.0/ruby/ruby.h:15,
+                 from /usr/include/ruby-3.1.0/ruby.h:38,
+                 from pg.h:21:
+/usr/include/x86_64-linux-gnu/ruby-3.1.0/ruby/config.h:77: note: this is the location of the previous definition
+   77 | #define restrict __restrict__
+      | 
+compiling pg_type_map_by_class.c
+In file included from pg.h:60,
+                 from pg_type_map_by_class.c:10:
+/home/adventure/anaconda3/include/pg_config.h:1038: warning: "restrict" redefined
+ 1038 | #define restrict __restrict
+      | 
+In file included from /usr/include/ruby-3.1.0/ruby/internal/config.h:22,
+                 from /usr/include/ruby-3.1.0/ruby/ruby.h:15,
+                 from /usr/include/ruby-3.1.0/ruby.h:38,
+                 from pg.h:21:
+/usr/include/x86_64-linux-gnu/ruby-3.1.0/ruby/config.h:77: note: this is the location of the previous definition
+   77 | #define restrict __restrict__
+      | 
+compiling pg_type_map_by_column.c
+In file included from pg.h:60,
+                 from pg_type_map_by_column.c:7:
+/home/adventure/anaconda3/include/pg_config.h:1038: warning: "restrict" redefined
+ 1038 | #define restrict __restrict
+      | 
+In file included from /usr/include/ruby-3.1.0/ruby/internal/config.h:22,
+                 from /usr/include/ruby-3.1.0/ruby/ruby.h:15,
+                 from /usr/include/ruby-3.1.0/ruby.h:38,
+                 from pg.h:21:
+/usr/include/x86_64-linux-gnu/ruby-3.1.0/ruby/config.h:77: note: this is the location of the previous definition
+   77 | #define restrict __restrict__
+      | 
+compiling pg_type_map_by_mri_type.c
+In file included from pg.h:60,
+                 from pg_type_map_by_mri_type.c:10:
+/home/adventure/anaconda3/include/pg_config.h:1038: warning: "restrict" redefined
+ 1038 | #define restrict __restrict
+      | 
+In file included from /usr/include/ruby-3.1.0/ruby/internal/config.h:22,
+                 from /usr/include/ruby-3.1.0/ruby/ruby.h:15,
+                 from /usr/include/ruby-3.1.0/ruby.h:38,
+                 from pg.h:21:
+/usr/include/x86_64-linux-gnu/ruby-3.1.0/ruby/config.h:77: note: this is the location of the previous definition
+   77 | #define restrict __restrict__
+      | 
+compiling pg_type_map_by_oid.c
+In file included from pg.h:60,
+                 from pg_type_map_by_oid.c:7:
+/home/adventure/anaconda3/include/pg_config.h:1038: warning: "restrict" redefined
+ 1038 | #define restrict __restrict
+      | 
+In file included from /usr/include/ruby-3.1.0/ruby/internal/config.h:22,
+                 from /usr/include/ruby-3.1.0/ruby/ruby.h:15,
+                 from /usr/include/ruby-3.1.0/ruby.h:38,
+                 from pg.h:21:
+/usr/include/x86_64-linux-gnu/ruby-3.1.0/ruby/config.h:77: note: this is the location of the previous definition
+   77 | #define restrict __restrict__
+      | 
+compiling pg_type_map_in_ruby.c
+In file included from pg.h:60,
+                 from pg_type_map_in_ruby.c:7:
+/home/adventure/anaconda3/include/pg_config.h:1038: warning: "restrict" redefined
+ 1038 | #define restrict __restrict
+      | 
+In file included from /usr/include/ruby-3.1.0/ruby/internal/config.h:22,
+                 from /usr/include/ruby-3.1.0/ruby/ruby.h:15,
+                 from /usr/include/ruby-3.1.0/ruby.h:38,
+                 from pg.h:21:
+/usr/include/x86_64-linux-gnu/ruby-3.1.0/ruby/config.h:77: note: this is the location of the previous definition
+   77 | #define restrict __restrict__
+      | 
+compiling pg_util.c
+In file included from pg.h:60,
+                 from pg_util.c:7:
+/home/adventure/anaconda3/include/pg_config.h:1038: warning: "restrict" redefined
+ 1038 | #define restrict __restrict
+      | 
+In file included from /usr/include/ruby-3.1.0/ruby/internal/config.h:22,
+                 from /usr/include/ruby-3.1.0/ruby/ruby.h:15,
+                 from /usr/include/ruby-3.1.0/ruby.h:38,
+                 from pg.h:21:
+/usr/include/x86_64-linux-gnu/ruby-3.1.0/ruby/config.h:77: note: this is the location of the previous definition
+   77 | #define restrict __restrict__
+      | 
+linking shared-object pg_ext.so
+
+current directory: /home/adventure/adventure/dev/bod-dropshipping/web/vendor/bundle/ruby/3.1.0/gems/pg-1.5.9/ext
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 pg_ext.so ./.gem.20250327-93155-fp4hr2
+installing pg_ext libraries

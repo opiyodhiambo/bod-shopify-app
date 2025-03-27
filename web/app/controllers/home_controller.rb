@@ -9,13 +9,17 @@ class HomeController < ApplicationController
   PROD_INDEX_PATH = Rails.public_path.join("dist")
 
   def index
-    if ShopifyAPI::Context.embedded? && (!params[:embedded].present? || params[:embedded] != "1")
-      redirect_to(ShopifyAPI::Auth.embedded_app_url(params[:host]), allow_other_host: true)
-    else
-      contents = File.read(File.join(Rails.env.production? ? PROD_INDEX_PATH : DEV_INDEX_PATH, "index.html"))
+    index_path = File.join(Rails.env.production? ? PROD_INDEX_PATH : DEV_INDEX_PATH, "index.html")
+    Rails.logger.info "Attempting to read: #{index_path}"
+    
+    if File.exist?(index_path)
+      Rails.logger.info "index.html found. Rendering..."
+      contents = File.read(index_path)
       contents.sub!("%VITE_SHOPIFY_API_KEY%", ShopifyApp.configuration.api_key)
-
       render(plain: contents, content_type: "text/html", layout: false)
+    else
+      Rails.logger.error "index.html not found at: #{index_path}"
+      render(plain: "index.html not found", status: 500)
     end
-  end
+  end  
 end

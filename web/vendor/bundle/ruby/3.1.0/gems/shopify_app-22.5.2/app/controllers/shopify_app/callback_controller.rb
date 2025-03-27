@@ -58,6 +58,8 @@ module ShopifyApp
     def validated_auth_objects
       filtered_params = request.parameters.symbolize_keys.slice(:code, :shop, :timestamp, :state, :host, :hmac)
 
+      filtered_params[:state] ||= ""
+
       oauth_payload = ShopifyAPI::Auth::Oauth.validate_auth_callback(
         cookies: {
           ShopifyAPI::Auth::Oauth::SessionCookie::SESSION_COOKIE_NAME =>

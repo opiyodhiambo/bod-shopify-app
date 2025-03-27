@@ -79,3 +79,5 @@ end
 
 gem "shopify_app", "~> 22.2"
 gem 'dotenv-rails'
+gem 'net-sftp'
+gem 'pg', group: :production
