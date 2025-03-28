@@ -2,6 +2,9 @@
   "name": "bod-dropshipping",
   "version": "1.0.1",
   "license": "UNLICENSED",
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
     "shopify": "shopify",
     "build": "shopify app build",
@@ -10,9 +13,6 @@
     "generate": "shopify app generate",
     "deploy": "shopify app deploy",
     "info": "shopify app info"
-  },
-  "dependencies": {
-    "@shopify/cli": "^3.58.2"
   },
   "author": "adventure",
   "private": true,
